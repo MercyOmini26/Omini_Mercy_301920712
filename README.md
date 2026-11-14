@@ -1,7 +1,13 @@
-# Mercy Omini — MIT 8103
+# Artisan Production Batch Tracker
 
-Student ID: 301920712
+Mercy Omini · Student ID 301920712
 
-Artisan Production Batch Tracker. Entities: Maker, Garment, Fabric, ProductionBatch, and BatchMaterial; each batch links a maker and garment, while its material rows link fabrics. Rule: ProductionBatch.batch_code is UNIQUE. Query: total fabric used per maker and garment. Transaction: create a batch and its material rows atomically. MongoDB event logs: snapshot the batch with its maker, garment, and fabrics.
+The portfolio uses fictional records for Artisan Production Batch Tracker.
 
-The portfolio is being generated. Completed stages will appear in the commit history.
+- [Portfolio 1](portfolio-1-database-design/)
+- [Portfolio 2](portfolio-2-query-optimisation/)
+- [Portfolio 3](portfolio-3-transactions-concurrency/)
+- [Portfolio 4](portfolio-4-nosql/)
+- [Portfolio 5](portfolio-5-distributed-cloud/)
+
+[Final summary](Omini_Mercy_301920712_FinalSummary.md) · [PDF](Omini_Mercy_301920712_FinalSummary.pdf)
